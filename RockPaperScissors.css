@@ -1,0 +1,58 @@
+body{
+  background-color: hsl(256, 26%, 20%);
+  opacity: 1;
+  transition: 1.5s opacity;
+}
+
+body.fade {
+    opacity: 0;
+    transition: none;
+}
+
+
+.container{
+  margin-top: 10em;
+  border-left: 2px solid white;
+  padding-left: 2em;
+
+}
+h1,h2{
+  color: white;
+}
+
+/*buttons*/
+#start,#one,#three,#five{
+  margin-top: 2em;
+  border-radius: .5em;
+  width:5em;
+  height:2em;
+}
+
+#rock{
+  position:relative;
+  left:30em;
+  top:5em;
+  width:10%;
+  height:10%;
+}
+
+
+#paper{
+  position:relative;
+  left:40em;
+  top:5em;
+  width:10%;
+  height:10%;
+}
+
+#scissors{
+  position:relative;
+  left:50em;
+  top:5em;
+  width:10%;
+  height:10%;
+}
+
+img:hover{
+  transform:scale(1.5);
+}
